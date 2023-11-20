@@ -1,0 +1,234 @@
+/* Reset de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+/*Main Styling */
+html,
+body { 
+    font-family: 'Roboto', sans-serif;
+}
+
+    /*Encabezado*/
+.encabezado { 
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  5px 20px;
+ }
+.encabezado h1 { 
+    font-size: 2rem;
+    color:black;
+    margin-left: 2rem;
+
+}
+
+ .logo img { 
+    width: 120px;
+ }
+ .menu { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .menu ul{ 
+    list-style: none;
+    padding: 5px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .menu li{  
+    margin-right: 20px;
+   
+   }
+   .menu li a {  
+   text-decoration: none;
+   font-family: 'Roboto';
+   font-size: 1.2em;
+   color: black;
+}
+.menu li:hover {
+   background-color: aquamarine;
+ }
+
+ /* carrusel */
+ .seccion1 img {
+    height: 100vh;
+ }
+
+header {
+    background-color: #333333;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+/* Estilos generales*/ 
+
+
+
+
+/*Secciones*/
+
+.seccion2 {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+ }
+main{ 
+    padding: 20px;
+    
+}
+
+
+/* Destinos */
+#destinos {
+    margin-top: 20px;
+}
+
+.destino {
+    margin-bottom: 40px;
+}
+
+.destino img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.destino h2, .destino h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Habitaciones */
+#habitaciones {
+    margin-top: 20px;
+}
+
+.habitacion {
+    margin-bottom: 40px;
+}
+
+.habitacion img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.habitacion h4, .habitacion h5 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.precio {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Formulario de contacto */
+#contacto,
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #696994;
+}
+
+section {
+    padding: 20px;
+}
+
+.destino, .habitacion {
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.enlace-whatsapp {
+    color: #25D366;
+    text-decoration: none; 
+    font-weight: bold;
+}
+.enlace-whatsapp:hover {
+    text-decoration: underline; 
+    .btn-wsp{
+        position:fixed;
+        width:60px;
+        height:60px;
+        line-height: 63px;
+        bottom:25px;
+        right:25px;
+        background:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:35px;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+        z-index:100;
+        transition: all 300ms ease;
+    }
+    .btn-wsp:hover{
+        background: #20ba5a;
+    }
+    @media only screen and (min-width:320px) and (max-width:768px){
+        .btn-wsp{
+            width:63px;
+            height:63px;
+            line-height: 66px;
+        }
+    }
+}
+
+/* Pie de página */
+
+footer {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
